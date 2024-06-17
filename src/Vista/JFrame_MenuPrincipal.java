@@ -42,6 +42,8 @@ public class JFrame_MenuPrincipal extends javax.swing.JFrame {
         jLabel_UserIcon = new javax.swing.JLabel();
         jLabel_UserName = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        jLabel_Modulo_Comprobantes1 = new javax.swing.JLabel();
+        jLabel_Modulo_Comprobantes2 = new javax.swing.JLabel();
         jPanel_Sections = new javax.swing.JPanel();
         jPanel_ModReportes = new javax.swing.JPanel();
         jLabe_l_TitleReportes = new javax.swing.JLabel();
@@ -124,6 +126,16 @@ public class JFrame_MenuPrincipal extends javax.swing.JFrame {
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/store.png"))); // NOI18N
         jPanel_Nav.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 100, 90));
+
+        jLabel_Modulo_Comprobantes1.setFont(new java.awt.Font("Segoe UI Emoji", 0, 18)); // NOI18N
+        jLabel_Modulo_Comprobantes1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel_Modulo_Comprobantes1.setText("Usuarios");
+        jPanel_Nav.add(jLabel_Modulo_Comprobantes1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 360, -1, 30));
+
+        jLabel_Modulo_Comprobantes2.setFont(new java.awt.Font("Segoe UI Emoji", 0, 18)); // NOI18N
+        jLabel_Modulo_Comprobantes2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel_Modulo_Comprobantes2.setText("Provedores");
+        jPanel_Nav.add(jLabel_Modulo_Comprobantes2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 340, -1, -1));
 
         jPanel_Bg.add(jPanel_Nav, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 550));
 
@@ -370,6 +382,8 @@ public class JFrame_MenuPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel_ModuloReportes;
     private javax.swing.JLabel jLabel_ModuloVentas;
     private javax.swing.JLabel jLabel_Modulo_Comprobantes;
+    private javax.swing.JLabel jLabel_Modulo_Comprobantes1;
+    private javax.swing.JLabel jLabel_Modulo_Comprobantes2;
     private javax.swing.JLabel jLabel_NombreEmpresa;
     private javax.swing.JLabel jLabel_TitleClientes;
     private javax.swing.JLabel jLabel_TitleComprobantes;
