@@ -8,6 +8,6 @@ package Controlador;
  *
  * @author AlmidonTapia
  */
-public class ControladorProveedor {
+public class ControladorLogin {
     
 }

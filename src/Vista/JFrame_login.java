@@ -48,10 +48,10 @@ public class JFrame_login extends javax.swing.JFrame {
         jLabel_Contraseña = new javax.swing.JLabel();
         jCheckBox_RecuperaCredenciales = new javax.swing.JCheckBox();
         jPasswordField_Contraseña = new javax.swing.JPasswordField();
-        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("inicio");
+        setPreferredSize(new java.awt.Dimension(950, 550));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel_bg.setBackground(new java.awt.Color(255, 255, 255));
@@ -67,7 +67,7 @@ public class JFrame_login extends javax.swing.JFrame {
 
         jPanel_bg.add(jPanel_Imagen, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 420, 550));
 
-        jPanel_Form.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel_Form.setBackground(new java.awt.Color(255, 255, 255));
         jPanel_Form.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel_Bienvenida.setFont(new java.awt.Font("Serif", 0, 36)); // NOI18N
@@ -93,7 +93,7 @@ public class JFrame_login extends javax.swing.JFrame {
         jSeparator_Password_label_Textfield.setForeground(new java.awt.Color(51, 51, 51));
         jPanel_Form.add(jSeparator_Password_label_Textfield, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 270, 340, 10));
 
-        jTextField_NombreUsuario.setBackground(new java.awt.Color(204, 204, 204));
+        jTextField_NombreUsuario.setBackground(new java.awt.Color(255, 255, 255));
         jTextField_NombreUsuario.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jTextField_NombreUsuario.setForeground(new java.awt.Color(153, 153, 153));
         jTextField_NombreUsuario.setText("Ingrese su nombre de usuario");
@@ -106,7 +106,7 @@ public class JFrame_login extends javax.swing.JFrame {
         });
         jPanel_Form.add(jTextField_NombreUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 240, 344, 40));
 
-        jButton_IniciarSesion.setBackground(new java.awt.Color(84, 197, 65));
+        jButton_IniciarSesion.setBackground(new java.awt.Color(0, 153, 255));
         jButton_IniciarSesion.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         jButton_IniciarSesion.setForeground(new java.awt.Color(244, 238, 241));
         jButton_IniciarSesion.setText("Iniciar sesion");
@@ -130,22 +130,17 @@ public class JFrame_login extends javax.swing.JFrame {
         jLabel_Contraseña.setText("Contraseña");
         jPanel_Form.add(jLabel_Contraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 290, -1, -1));
 
-        jCheckBox_RecuperaCredenciales.setBackground(new java.awt.Color(204, 204, 204));
+        jCheckBox_RecuperaCredenciales.setBackground(new java.awt.Color(255, 255, 255));
         jCheckBox_RecuperaCredenciales.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
         jCheckBox_RecuperaCredenciales.setForeground(new java.awt.Color(51, 51, 51));
         jCheckBox_RecuperaCredenciales.setText("Olvidaste tus credenciales");
         jPanel_Form.add(jCheckBox_RecuperaCredenciales, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 430, -1, -1));
 
-        jPasswordField_Contraseña.setBackground(new java.awt.Color(204, 204, 204));
+        jPasswordField_Contraseña.setBackground(new java.awt.Color(255, 255, 255));
         jPasswordField_Contraseña.setForeground(new java.awt.Color(153, 153, 153));
         jPasswordField_Contraseña.setText("********");
         jPasswordField_Contraseña.setBorder(null);
         jPanel_Form.add(jPasswordField_Contraseña, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 310, -1, -1));
-
-        jLabel1.setFont(new java.awt.Font("Roboto", 0, 12)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(51, 51, 51));
-        jLabel1.setText("Nuevo usuario");
-        jPanel_Form.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 450, -1, -1));
 
         jPanel_bg.add(jPanel_Form, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 0, 540, 550));
 
@@ -224,7 +219,6 @@ public class JFrame_login extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton_IniciarSesion;
     private javax.swing.JCheckBox jCheckBox_RecuperaCredenciales;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel_Bienvenida;
     private javax.swing.JLabel jLabel_Contraseña;

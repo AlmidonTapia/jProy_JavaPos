@@ -10,11 +10,26 @@ package Modelo;
  */
 public class ModeloUsuario {
     int idUsuario;
-    String nombres;
+    String nombre;
     String apellidos;
     String correo;
     String contraseña;
+    Boolean adminPrincipal;
 
+    public ModeloUsuario() {
+    }
+
+    public ModeloUsuario(int idUsuario, String nombre, String apellidos, String correo, String contraseña, Boolean adminPrincipal) {
+        this.idUsuario = idUsuario;
+        this.nombre = nombre;
+        this.apellidos = apellidos;
+        this.correo = correo;
+        this.contraseña = contraseña;
+        this.adminPrincipal = adminPrincipal;
+    }
+    
+    
+    
     public int getIdUsuario() {
         return idUsuario;
     }
@@ -23,12 +38,12 @@ public class ModeloUsuario {
         this.idUsuario = idUsuario;
     }
 
-    public String getNombres() {
-        return nombres;
+    public String getNombre() {
+        return nombre;
     }
 
-    public void setNombres(String nombres) {
-        this.nombres = nombres;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public String getApellidos() {
@@ -54,6 +69,14 @@ public class ModeloUsuario {
     public void setContraseña(String contraseña) {
         this.contraseña = contraseña;
     }
-    
-    
+
+    public Boolean getAdminPrincipal() {
+        return adminPrincipal;
+    }
+
+    public void setAdminPrincipal(Boolean adminPrincipal) {
+        this.adminPrincipal = adminPrincipal;
+    }
+
+
 }

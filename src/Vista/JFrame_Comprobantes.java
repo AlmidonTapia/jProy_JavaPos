@@ -38,6 +38,8 @@ public class JFrame_Comprobantes extends javax.swing.JFrame {
         jLabel_UserName = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel_NombreEmpresa = new javax.swing.JLabel();
+        jLabel_Modulo_Comprobantes2 = new javax.swing.JLabel();
+        jLabel_Modulo_Comprobantes3 = new javax.swing.JLabel();
         jPanel_Productos = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jTextField1 = new javax.swing.JTextField();
@@ -52,7 +54,6 @@ public class JFrame_Comprobantes extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -60,6 +61,7 @@ public class JFrame_Comprobantes extends javax.swing.JFrame {
         jLabel18 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
+        jLabel_Modulo_Comprobantes1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -91,8 +93,8 @@ public class JFrame_Comprobantes extends javax.swing.JFrame {
 
         jLabel_Modulo_Comprobantes.setFont(new java.awt.Font("Segoe UI Emoji", 0, 18)); // NOI18N
         jLabel_Modulo_Comprobantes.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel_Modulo_Comprobantes.setText("Comprobantes");
-        jPanel_Nav.add(jLabel_Modulo_Comprobantes, new org.netbeans.lib.awtextra.AbsoluteConstraints(37, 297, -1, -1));
+        jLabel_Modulo_Comprobantes.setText("Usuarios");
+        jPanel_Nav.add(jLabel_Modulo_Comprobantes, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 360, -1, -1));
 
         jButton_Salir.setBackground(new java.awt.Color(255, 0, 51));
         jButton_Salir.setForeground(new java.awt.Color(255, 255, 255));
@@ -114,6 +116,16 @@ public class JFrame_Comprobantes extends javax.swing.JFrame {
         jLabel_NombreEmpresa.setForeground(new java.awt.Color(255, 255, 255));
         jLabel_NombreEmpresa.setText("Minimarket");
         jPanel_Nav.add(jLabel_NombreEmpresa, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, 143, 27));
+
+        jLabel_Modulo_Comprobantes2.setFont(new java.awt.Font("Segoe UI Emoji", 0, 18)); // NOI18N
+        jLabel_Modulo_Comprobantes2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel_Modulo_Comprobantes2.setText("Comprobantes");
+        jPanel_Nav.add(jLabel_Modulo_Comprobantes2, new org.netbeans.lib.awtextra.AbsoluteConstraints(37, 297, -1, -1));
+
+        jLabel_Modulo_Comprobantes3.setFont(new java.awt.Font("Segoe UI Emoji", 0, 18)); // NOI18N
+        jLabel_Modulo_Comprobantes3.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel_Modulo_Comprobantes3.setText("Provedores");
+        jPanel_Nav.add(jLabel_Modulo_Comprobantes3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 330, -1, -1));
 
         jPanel_bg.add(jPanel_Nav, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 560));
 
@@ -180,10 +192,6 @@ public class JFrame_Comprobantes extends javax.swing.JFrame {
         jLabel14.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(51, 51, 51));
         jLabel14.setText("*********");
-
-        jLabel15.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(51, 51, 51));
-        jLabel15.setText("*********");
 
         jLabel16.setFont(new java.awt.Font("Roboto", 1, 14)); // NOI18N
         jLabel16.setForeground(new java.awt.Color(51, 51, 51));
@@ -254,10 +262,7 @@ public class JFrame_Comprobantes extends javax.swing.JFrame {
                                             .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                             .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(jPanel2Layout.createSequentialGroup()
-                                            .addComponent(jLabel17)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addComponent(jLabel17))
                                     .addGap(35, 35, 35)
                                     .addComponent(jLabel12)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -268,7 +273,7 @@ public class JFrame_Comprobantes extends javax.swing.JFrame {
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                     .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 546, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addContainerGap(40, Short.MAX_VALUE))
+                .addContainerGap(30, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -290,9 +295,7 @@ public class JFrame_Comprobantes extends javax.swing.JFrame {
                     .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 17, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -308,19 +311,33 @@ public class JFrame_Comprobantes extends javax.swing.JFrame {
                 .addGap(35, 35, 35))
         );
 
-        jPanel_Productos.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, 610, 410));
+        jPanel_Productos.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, 600, 390));
 
         jPanel_bg.add(jPanel_Productos, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 0, 760, 560));
+
+        jLabel_Modulo_Comprobantes1.setFont(new java.awt.Font("Segoe UI Emoji", 0, 18)); // NOI18N
+        jLabel_Modulo_Comprobantes1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel_Modulo_Comprobantes1.setText("Usuarios");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel_bg, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jLabel_Modulo_Comprobantes1)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel_bg, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jLabel_Modulo_Comprobantes1)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         pack();
@@ -341,7 +358,6 @@ public class JFrame_Comprobantes extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
@@ -357,6 +373,9 @@ public class JFrame_Comprobantes extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel_ModuloReportes;
     private javax.swing.JLabel jLabel_ModuloVentas;
     private javax.swing.JLabel jLabel_Modulo_Comprobantes;
+    private javax.swing.JLabel jLabel_Modulo_Comprobantes1;
+    private javax.swing.JLabel jLabel_Modulo_Comprobantes2;
+    private javax.swing.JLabel jLabel_Modulo_Comprobantes3;
     private javax.swing.JLabel jLabel_NombreEmpresa;
     private javax.swing.JLabel jLabel_UserIcon;
     private javax.swing.JLabel jLabel_UserName;

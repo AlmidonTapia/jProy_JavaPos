@@ -38,6 +38,8 @@ public class JFrame_Reportes extends javax.swing.JFrame {
         jLabel_UserName = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel_NombreEmpresa = new javax.swing.JLabel();
+        jLabel_Modulo_Comprobantes1 = new javax.swing.JLabel();
+        jLabel_Modulo_Comprobantes2 = new javax.swing.JLabel();
         jPanel_Productos = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
@@ -104,6 +106,16 @@ public class JFrame_Reportes extends javax.swing.JFrame {
         jLabel_NombreEmpresa.setForeground(new java.awt.Color(255, 255, 255));
         jLabel_NombreEmpresa.setText("Minimarket");
         jPanel_Nav.add(jLabel_NombreEmpresa, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, 143, 27));
+
+        jLabel_Modulo_Comprobantes1.setFont(new java.awt.Font("Segoe UI Emoji", 0, 18)); // NOI18N
+        jLabel_Modulo_Comprobantes1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel_Modulo_Comprobantes1.setText("Usuarios");
+        jPanel_Nav.add(jLabel_Modulo_Comprobantes1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 330, -1, -1));
+
+        jLabel_Modulo_Comprobantes2.setFont(new java.awt.Font("Segoe UI Emoji", 0, 18)); // NOI18N
+        jLabel_Modulo_Comprobantes2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel_Modulo_Comprobantes2.setText("Usuarios");
+        jPanel_Nav.add(jLabel_Modulo_Comprobantes2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, -1, 30));
 
         jPanel_bg.add(jPanel_Nav, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 560));
 
@@ -230,6 +242,8 @@ public class JFrame_Reportes extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel_ModuloReportes;
     private javax.swing.JLabel jLabel_ModuloVentas;
     private javax.swing.JLabel jLabel_Modulo_Comprobantes;
+    private javax.swing.JLabel jLabel_Modulo_Comprobantes1;
+    private javax.swing.JLabel jLabel_Modulo_Comprobantes2;
     private javax.swing.JLabel jLabel_NombreEmpresa;
     private javax.swing.JLabel jLabel_UserIcon;
     private javax.swing.JLabel jLabel_UserName;

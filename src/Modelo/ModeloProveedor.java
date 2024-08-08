@@ -14,6 +14,17 @@ public class ModeloProveedor {
     String telefono;
     String correo;
 
+    public ModeloProveedor() {
+    }
+
+    public ModeloProveedor(int idProveedor, String nombres, String telefono, String correo) {
+        this.idProveedor = idProveedor;
+        this.nombres = nombres;
+        this.telefono = telefono;
+        this.correo = correo;
+    }
+    
+    
     public int getIdProveedor() {
         return idProveedor;
     }

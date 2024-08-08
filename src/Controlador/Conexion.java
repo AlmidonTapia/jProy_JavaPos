@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
  * @author AlmidonTapia
  */
 public class Conexion {
-    
+    //
     Connection conexion = null;
     
     String user = "admin23";

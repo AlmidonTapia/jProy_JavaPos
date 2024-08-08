@@ -39,6 +39,7 @@ public class JFrame_Provedores extends javax.swing.JFrame {
         jLabel_Modulo_Comprobantes1 = new javax.swing.JLabel();
         jLabel_NombreEmpresa = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        jLabel_Modulo_Comprobantes2 = new javax.swing.JLabel();
         jPanel_Productos = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
@@ -88,7 +89,7 @@ public class JFrame_Provedores extends javax.swing.JFrame {
         jLabel_Modulo_Comprobantes.setFont(new java.awt.Font("Segoe UI Emoji", 0, 18)); // NOI18N
         jLabel_Modulo_Comprobantes.setForeground(new java.awt.Color(255, 255, 255));
         jLabel_Modulo_Comprobantes.setText("Provedores");
-        jPanel_Nav.add(jLabel_Modulo_Comprobantes, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 330, -1, -1));
+        jPanel_Nav.add(jLabel_Modulo_Comprobantes, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 320, -1, -1));
 
         jButton_Salir.setBackground(new java.awt.Color(255, 0, 51));
         jButton_Salir.setForeground(new java.awt.Color(255, 255, 255));
@@ -116,6 +117,11 @@ public class JFrame_Provedores extends javax.swing.JFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/store.png"))); // NOI18N
         jPanel_Nav.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 100, 90));
 
+        jLabel_Modulo_Comprobantes2.setFont(new java.awt.Font("Segoe UI Emoji", 0, 18)); // NOI18N
+        jLabel_Modulo_Comprobantes2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel_Modulo_Comprobantes2.setText("Usuarios");
+        jPanel_Nav.add(jLabel_Modulo_Comprobantes2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, -1, -1));
+
         jPanel_bg.add(jPanel_Nav, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 220, 560));
 
         jPanel_Productos.setBackground(new java.awt.Color(204, 204, 204));
@@ -139,7 +145,7 @@ public class JFrame_Provedores extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Roboto", 0, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(51, 51, 51));
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Resources/editar.png"))); // NOI18N
-        jLabel3.setText("Ingreso de más Productos");
+        jLabel3.setText("Ingreso de productos");
         jPanel_Productos.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 40, 280, 40));
 
         jLabel4.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
@@ -260,6 +266,10 @@ public class JFrame_Provedores extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField2ActionPerformed
 
+    private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField6ActionPerformed
+
     private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField3ActionPerformed
@@ -271,10 +281,6 @@ public class JFrame_Provedores extends javax.swing.JFrame {
     private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField5ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField5ActionPerformed
-
-    private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField6ActionPerformed
 
     
 
@@ -297,6 +303,7 @@ public class JFrame_Provedores extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel_ModuloVentas;
     private javax.swing.JLabel jLabel_Modulo_Comprobantes;
     private javax.swing.JLabel jLabel_Modulo_Comprobantes1;
+    private javax.swing.JLabel jLabel_Modulo_Comprobantes2;
     private javax.swing.JLabel jLabel_NombreEmpresa;
     private javax.swing.JLabel jLabel_UserIcon;
     private javax.swing.JLabel jLabel_UserName;
